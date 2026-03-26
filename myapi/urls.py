@@ -1,0 +1,10 @@
+from django.contrib import admin
+from django.urls import path
+from users.views import RegisterView, LoginView
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+
+    path('signup/', RegisterView.as_view(), name='signup'),
+    path('login/', LoginView.as_view(), name='login'),
+]
