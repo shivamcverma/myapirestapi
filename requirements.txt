@@ -1,7 +1,7 @@
 Django==4.2
-djangorestframework==3.20
-gunicorn==20.1.0   # stable version
+djangorestframework==3.17.1
+djangorestframework-simplejwt==5.5.1
+gunicorn==20.1.0
 sqlparse==0.5.5
 tzdata==2025.3
-djangorestframework-simplejwt==2.8.0
 whitenoise==6.5.0
